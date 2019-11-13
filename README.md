@@ -17,12 +17,11 @@
 	> npm install http-server -g
 
 
- ng build --prod --output-hashing none
-node build-elements
-http-server dist/angular-elements-example
 
-
-
+## Building Angular Elements
+1. ng build --prod --output-hashing none
+2. node build-elements
+3. http-server dist/angular-elements-example
  
 # Create Project
 
