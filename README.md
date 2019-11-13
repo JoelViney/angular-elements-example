@@ -1,5 +1,50 @@
 # AngularElementsExample
 
+# Installed packages
+
+1. Create Project:
+	> ng new angular-elements-example
+
+2. Angular Elements
+	> ng add @angular/elements
+
+3. https://www.npmjs.com/package/concat
+	> npm install concat --save-dev
+
+	> npm install fs-extra --save-dev
+
+4. https://www.npmjs.com/package/http-server
+	> npm install http-server -g
+
+
+ ng build --prod --output-hashing none
+node build-elements
+http-server dist/angular-elements-example
+
+
+
+ 
+# Create Project
+
+1. Create Project:
+	> ng new angular-elements-example
+
+2. Angular Elements
+	> ng add @angular/elements
+
+3. https://www.npmjs.com/package/concat
+	> npm install concat --save-dev
+
+	> npm install fs-extra --save-dev
+
+4. https://www.npmjs.com/package/http-server
+	> npm install http-server -g
+
+
+ ng build --prod --output-hashing none
+ 
+# AngularElementsExample
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
 
 ## Development server
