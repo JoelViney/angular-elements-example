@@ -3,8 +3,11 @@ import { NgModule, Injector } from '@angular/core';
 
 import {createCustomElement} from '@angular/elements';
 
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 // import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SharedModule } from './shared/shared.module';
 
 import { Element1Component } from './elements/element1/element1.component';
 import { Element2Component } from './elements/element2/element2.component';
@@ -17,11 +20,13 @@ import { Element4Component } from './elements/element4/element4.component';
   ],
   imports: [
     BrowserModule,
-    // AppRoutingModule
+    // AppRoutingModule,
+    NgbModule,
+    SharedModule
   ],
   providers: [],
   entryComponents: [AppComponent, Element1Component, Element2Component, Element3Component, Element4Component],
-  // bootstrap: [AppComponent],
+  bootstrap: [AppComponent],
 })
 export class AppModule { 
 
