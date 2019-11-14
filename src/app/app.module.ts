@@ -40,6 +40,6 @@ export class AppModule {
   }
 
   ngDoBootstrap() {
-
+    // ngDoBootstrap is needed when the application does not have a bootstrap component. 
   }
 }
