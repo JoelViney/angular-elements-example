@@ -21,7 +21,7 @@ import { Element4Component } from './elements/element4/element4.component';
   ],
   providers: [],
   entryComponents: [AppComponent, Element1Component, Element2Component, Element3Component, Element4Component],
-  bootstrap: [AppComponent],
+  // bootstrap: [AppComponent],
 })
 export class AppModule { 
 

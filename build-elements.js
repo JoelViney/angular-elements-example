@@ -5,7 +5,6 @@ const concat = require('concat');
   const files = [
     './dist/angular-elements-example/runtime-es2015.js',
     './dist/angular-elements-example/polyfills-es2015.js',
-    './dist/angular-elements-example/scripts.js',
     './dist/angular-elements-example/main-es2015.js',
   ]
   // await fs.ensureDir('elements')

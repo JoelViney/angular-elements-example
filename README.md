@@ -1,5 +1,10 @@
 # AngularElementsExample
 
+// "input": "node_modules/document-register-element/build/document-register-element.js"
+
+
+
+
 # Installed packages
 
 1. Create Project:
@@ -16,12 +21,17 @@
 4. https://www.npmjs.com/package/http-server
 	> npm install http-server -g
 
+5. 
+npm i @webcomponents/custom-elements --save
+npm i @webcomponents/shadydom
 
 
 ## Building Angular Elements
 1. ng build --prod --output-hashing none
 2. node build-elements
 3. http-server dist/angular-elements-example
+
+http://localhost:8080/index-elements.html
  
 # Create Project
 
