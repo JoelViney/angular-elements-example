@@ -4,10 +4,14 @@
 
 	<div class="alert alert-warning" role="alert">
 		Element 4 works. ViewEncapsulation.ShadowDom with Bootstrap 4
+		<p>Input num: {{num}}</p>
+		<p>Input message: {{message}} </p>
+
+		<button type="button" class="btn btn-primary" (click)="clickableClicked()">Clickable</button>
 	</div>
 
-	<button type="button" class="btn btn-outline-secondary mr-2" placement="right"
-		ngbPopover="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." popoverTitle="Popover on right">
-		Shadow DOM Popover on right
+	<ng-template #tipContent>Hello!</ng-template>
+	<button type="button" class="btn btn-outline-secondary" [ngbTooltip]="tipContent">
+		ng-bootstrap tooltip!
 	</button>
 </div>

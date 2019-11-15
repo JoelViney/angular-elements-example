@@ -22,13 +22,13 @@
   <h1>Hello Angular Elements!</h1>
 
   <div class="alert alert-success" role="alert">
-    Bootstrap works.
+    Bootstrap 3 works.
   </div>
 
     <my-element1></my-element1>
     <my-element2></my-element2>
     <my-element3></my-element3>
-    <my-element4></my-element4>
+    <my-element4 id='my-element4' num=42 message='Hello Parameters!'></my-element4>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -36,6 +36,14 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+    <script>
+      const myElement = document.getElementById('my-element4');
+      console.log('my-element==', myElement);
+      myElement.addEventListener('clickable', () => {
+        console.log('Clickable Event Raised!!!')
+        alert("Clickable Event Raised!!!");;
+      });
+    </script>
 </body>
 
 </html>

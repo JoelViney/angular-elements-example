@@ -1,11 +1,20 @@
 # Angular Elements Example
 This project was created to test out [Angular Elements](https://angular.io/guide/elements).
 
-It was to show that you can have a legacy website and upgrade it incremetally instead of having to do a rewrite from scratch.
 
-The project demonstrates that you can have an existing website running on Bootstrap 3 and jQuery and the new parts running Bootstrap 4 and ng-Bootstrap in isolation. This is done by using [Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) (also called Web Components) to isolate the new functionality from any existing CSS / Javascript.
+In order to demonstrate that this project has a html page with Bootstrap 3 and jQuery and a 'part' of the page running Bootstrap 4 and ng-Bootstrap. This is done by using [Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) (also called Web Components) to isolate the new functionality from any existing CSS / Javascript.
+
+It shows that you can have a legacy website and upgrade it incremetally instead of having to do a rewrite from scratch.
 
 Here is a [link](https://angular-elements-example.azurewebsites.net/) to the running project.
+
+
+## Building Angular Elements
+1. ng build --prod --output-hashing none
+2. node build-elements
+3. http-server dist/angular-elements-example
+4. http://localhost:8080/index-elements.html
+
 
 
 # Installed Packages
@@ -40,13 +49,6 @@ The project was generated with [Angular CLI](https://github.com/angular/angular-
 ## Http Server
   The npm package [http-server](https://www.npmjs.com/package/http-server) is a lightweight ummmm... http server.
 	npm install http-server -g
-
-## Building Angular Elements
-1. ng build --prod --output-hashing none
-2. node build-elements
-3. http-server dist/angular-elements-example
-4. http://localhost:8080/index-elements.html
-
 
 
 ## Commands
