@@ -16,6 +16,9 @@ Here is a [link](https://angular-elements-example.azurewebsites.net/) to the run
 4. http://localhost:8080/index-elements.html
 
 
+## Browser Support
+It was tested on Chrome, Firefox, Edge and Safarri. I didn't add support for Internet Explorer 11, it can be done but the cost v benefit just didn't add up for me...
+
 
 # Installed Packages
 The project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
