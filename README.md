@@ -42,7 +42,7 @@ The project was generated with [Angular CLI](https://github.com/angular/angular-
 	4b. Remove the script from angular.json
 		"input": "node_modules/document-register-element/build/document-register-element.js"
 
-5. (Bootstrap 4)[https://getbootstrap.com/] & [ng-nootstrap](https://ng-bootstrap.github.io/#/getting-started)
+5. [Bootstrap 4](https://getbootstrap.com/) & [ng-nootstrap](https://ng-bootstrap.github.io/#/getting-started)
 	npm install bootstrap@4 --save
 	npm install --save @ng-bootstrap/ng-bootstrap
 
